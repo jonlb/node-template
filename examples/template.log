@@ -1,0 +1,407 @@
+info: starting promise gs515p0d
+info: resolving promise gs515p0d
+info: starting promise gs516qdu
+info: starting promise gs516qdv
+info: resolving promise gs516qdv
+info: starting promise gs516qdw
+info: resolving promise gs516qdw
+info: starting promise gs516qdx
+info: resolving promise gs516qdx
+debug: the items in each[ 'one', 'two', 'three', 'four', 'five' ]
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'two', 'three', 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'one' }
+info: starting promise gs516qdy
+info: resolving promise gs516qdy
+debug: return from body.render: '<li>one</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'three', 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'two' }
+info: starting promise gs516qdz
+info: resolving promise gs516qdz
+debug: return from body.render: '<li>two</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'three' }
+info: starting promise gs516qe0
+info: resolving promise gs516qe0
+debug: return from body.render: '<li>three</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'four' }
+info: starting promise gs516qe1
+info: resolving promise gs516qe1
+debug: return from body.render: '<li>four</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'five' }
+info: starting promise gs516qe2
+info: resolving promise gs516qe2
+debug: return from body.render: '<li>five</li>'
+debug: the items in each:[ 'one', 'two', 'three', 4, 'five' ]
+debug: the keys in each:[ 'key1', 'key2', 'key3', 'key4', 'key5' ]
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'one',
+  key: 'key1' }
+info: starting promise gs516qe3
+info: resolving promise gs516qe3
+debug: return from body.render: '<li>key1, one</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'two',
+  key: 'key2' }
+info: starting promise gs516qe4
+info: resolving promise gs516qe4
+debug: return from body.render: '<li>key2, two</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'three',
+  key: 'key3' }
+info: starting promise gs516qe5
+info: resolving promise gs516qe5
+debug: return from body.render: '<li>key3, three</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 4,
+  key: 'key4' }
+info: starting promise gs516qe6
+info: resolving promise gs516qe6
+debug: return from body.render: '<li>key4, 4</li>'
+debug: the context:{ title: 'Test Template',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  content: 'This is a test template',
+  var1: 'some random text',
+  var2: '354',
+  item: 'five',
+  key: 'key5' }
+info: starting promise gs516qe7
+info: resolving promise gs516qe7
+debug: return from body.render: '<li>key5, five</li>'
+info: resolving promise gs516qdu
+info: starting promise gs517hr1
+info: starting promise gs517hr3
+info: resolving promise gs517hr3
+info: starting promise gs517hr4
+info: resolving promise gs517hr4
+debug: the items in each[ 'one', 'two', 'three', 'four', 'five' ]
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'two', 'three', 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'one' }
+info: starting promise gs517hr5
+info: resolving promise gs517hr5
+debug: return from body.render: '<li>one</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'three', 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'two' }
+info: starting promise gs517hr6
+info: resolving promise gs517hr6
+debug: return from body.render: '<li>two</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'four', 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'three' }
+info: starting promise gs517hr7
+info: resolving promise gs517hr7
+debug: return from body.render: '<li>three</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [ 'five' ],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'four' }
+info: starting promise gs517hr8
+info: resolving promise gs517hr8
+debug: return from body.render: '<li>four</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'five' }
+info: starting promise gs517hr9
+info: resolving promise gs517hr9
+debug: return from body.render: '<li>five</li>'
+debug: the items in each:[ 'one', 'two', 'three', 4, 'five' ]
+debug: the keys in each:[ 'key1', 'key2', 'key3', 'key4', 'key5' ]
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'one',
+  key: 'key1' }
+info: starting promise gs517hra
+info: resolving promise gs517hra
+debug: return from body.render: '<li>key1, one</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'two',
+  key: 'key2' }
+info: starting promise gs517hrb
+info: resolving promise gs517hrb
+debug: return from body.render: '<li>key2, two</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'three',
+  key: 'key3' }
+info: starting promise gs517hrc
+info: resolving promise gs517hrc
+debug: return from body.render: '<li>key3, three</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 4,
+  key: 'key4' }
+info: starting promise gs517hrd
+info: resolving promise gs517hrd
+debug: return from body.render: '<li>key4, 4</li>'
+debug: the context:{ title: 'The title of the page',
+  test: true,
+  test2: 3,
+  test3: { some: { nested: { var: 'Found the nested variable.' } } },
+  compoundIf: 'Compound if works!!',
+  testEach1: [],
+  testEach2: 
+   { key1: 'one',
+     key2: 'two',
+     key3: 'three',
+     key4: 4,
+     key5: 'five' },
+  var1: 'some random text',
+  var2: '354',
+  item: 'five',
+  key: 'key5' }
+info: starting promise gs517hre
+info: resolving promise gs517hre
+debug: return from body.render: '<li>key5, five</li>'
+info: resolving promise gs517hr2
+info: starting promise gs517hrf
+info: starting promise gs517hrg
+info: resolving promise gs517hrg
+info: resolving promise gs517hrf
+info: resolving promise gs517hr1
