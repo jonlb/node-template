@@ -1,17 +1,14 @@
 
 var Template = require('../lib/template'),
     fs = require('fs'),
-    tpl = fs.readFileSync('./basic.tpl', 'utf-8'),
     t;
     
 Template.init([
     __dirname + '/../lib/plugins',
     __dirname + '/../lib/plugins/filters'
 ]);
-t = new Template.Template({
-    basePaths: [__dirname]    
-});
-t.setTemplate(tpl);
+Template.scanDirectory(__dirname,{});
+var t = Template.Template.getTemplate('basic',false);
 t.render({
     title: 'Test Template',
     test: true,
