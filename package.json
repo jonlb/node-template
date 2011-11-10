@@ -1,0 +1,20 @@
+{
+  "author": "Jon Bomgardner <jon@solagratiadesigns.com> (http://solagratiadesigns.com)",
+  "name": "nTemplate",
+  "description": "A templating engine for node",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonlb/node-template.git"
+  },
+  "main": "lib/template.js",
+  "engines": {
+    "node": "~v0.4.10"
+  },
+  "dependencies": {
+    {
+      "winston": "0.5.x"
+    }
+  },
+  "devDependencies": {}
+}
